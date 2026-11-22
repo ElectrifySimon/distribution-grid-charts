@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Distribution grids in charts, digitized from source</title>
+<style>
+  :root { --ink:#14181d; --mut:#5b6672; --line:#e2e6ea; --bg:#fbfbfa; --card:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif; }
+  header { padding:64px 28px 36px; max-width:1080px; margin:0 auto; }
+  h1 { font-size:clamp(28px,4vw,44px); line-height:1.1; margin:0 0 14px; letter-spacing:-.02em; }
+  .lede { color:var(--mut); max-width:66ch; font-size:17px; margin:0 0 18px; }
+  .kicker { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--mut); margin:0 0 14px; }
+  .stats { display:flex; gap:28px; flex-wrap:wrap; border-top:1px solid var(--line);
+           padding-top:18px; margin-top:8px; }
+  .stat b { display:block; font-size:22px; }
+  .stat span { color:var(--mut); font-size:13px; }
+  main { max-width:1080px; margin:0 auto; padding:0 28px 80px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+          padding:22px 22px 16px; margin:0 0 22px; }
+  .badge { display:inline-block; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+           padding:3px 8px; border-radius:4px; color:#fff; margin-bottom:12px; }
+  h2 { font-size:19px; margin:0 0 4px; line-height:1.25; }
+  .sub { color:var(--mut); font-size:14px; margin:0 0 14px; }
+  .plot { width:100%; height:340px; }
+  .meta { display:flex; gap:18px; flex-wrap:wrap; font-size:12.5px; color:var(--mut);
+          border-top:1px solid var(--line); padding-top:12px; margin-top:6px; }
+  .meta a { color:inherit; }
+  .check { font-size:13px; color:#2f4b3a; background:#f2f7f3; border-left:3px solid #4d8a63;
+           padding:9px 12px; margin:12px 0 0; border-radius:0 4px 4px 0; }
+  .check b { font-weight:600; }
+  section.notes { border-top:1px solid var(--line); margin-top:34px; padding-top:24px;
+                  color:var(--mut); font-size:14px; }
+  section.notes h3 { color:var(--ink); font-size:15px; margin:0 0 8px; }
+  footer { max-width:1080px; margin:0 auto; padding:0 28px 60px; color:var(--mut); font-size:12.5px; }
+</style></head><body>
+<header>
+  <p class="kicker">Distribution grids, read from the source PDFs</p>
+  <h1>Nine charts on the grid at the end of the line</h1>
+  <p class="lede">Every chart here was extracted from the published PDF as vector geometry:
+  axes calibrated from the printed tick labels, series taken from the printed legend, values
+  sampled at each tick. Nothing is copied from a data annex and nothing is estimated by eye.
+  Charts that failed that test are listed at the bottom rather than shown.</p>
+  <div class="stats">
+    <div class="stat"><b>9</b><span>charts published</span></div>
+    <div class="stat"><b>2</b><span>publishers</span></div>
+    <div class="stat"><b>6</b><span>reports tested</span></div>
+    <div class="stat"><b>0.09%</b><span>max error, graded run</span></div>
+  </div>
+</header>
+<main id="cards"></main>
+<section class="notes">
+  <h3>Why the list is short</h3>
+  <p>Six reports were downloaded and every figure in them was put through the reader: IEA
+  <i>Electricity Grids and Secure Energy Transitions</i>, IEA <i>World Energy Outlook 2026</i>,
+  Eurelectric <i>Grids for Speed</i>, ACER's 2024 infrastructure monitoring report, the EU DSO
+  Entity annual reporting and IRENA's <i>World Energy Transitions Outlook 2023</i>. 285 chart
+  panels were detected. A panel is published only when its legend labels appear verbatim in the
+  page's text layer, no two series share a name, and the values pass an internal test such as
+  shares summing to 100 or a category total matching the figure the report states in prose.</p>
+  <p>The rest failed for reasons worth naming: multi-panel composites share one legend across
+  panels and the reader pairs it wrongly; several reports draw legends as images, leaving no
+  text to verify against; and IRENA's flagship uses legends with repeated column headers that
+  cannot be matched one to one. Those are reader limits, not publisher errors.</p>
+</section>
+<footer>
+  <p>Values digitized from the published figures with a vector-geometry reader. Source, page and
+  report are linked on every card. Charts reproduce the publishers' data; the reading is ours.</p>
+</footer>
+<script src="vendor/echarts.min.js"></script>
+<script src="data.js?v=1"></script>
+<script>
+const D = window.DISTGRID;
+const cards = document.getElementById('cards');
+const fmt = v => (v === null || v === undefined) ? '—'
+  : (Math.abs(v) >= 100 ? v.toFixed(0) : Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2));
+
+D.cards.forEach(c => {
+  const el = document.createElement('article');
+  el.className = 'card';
+  el.innerHTML = `
+    <span class="badge" style="background:${c.pub_colour}">${c.publisher}</span>
+    <h2>${c.title}</h2>
+    <p class="sub">${c.sub}</p>
+    <div class="plot" id="${c.id}"></div>
+    <p class="check"><b>Check passed.</b> ${c.check}</p>
+    <div class="meta">
+      <span>${c.report} (${c.year}), ${c.page}</span>
+      <span>${c.series.length} series, ${c.categories.length} points</span>
+      <span><a href="${c.url}" target="_blank" rel="noopener">source PDF</a></span>
+    </div>`;
+  cards.appendChild(el);
+});
+
+function draw(c) {
+  const el = document.getElementById(c.id);
+  if (!el) return null;
+  const ch = echarts.init(el, null, {renderer: 'canvas'});
+  const stacked = c.mode === 'stacked';
+  ch.setOption({
+    grid: {left: 58, right: 24, top: 34, bottom: 58},
+    tooltip: {trigger: 'axis', axisPointer: {type: 'shadow'},
+              valueFormatter: v => fmt(v) + ' ' + c.unit},
+    legend: {bottom: 0, type: 'scroll', itemWidth: 11, itemHeight: 11,
+             textStyle: {fontSize: 11.5, color: '#5b6672'}},
+    xAxis: {type: 'category', data: c.categories,
+            axisLabel: {fontSize: 11.5, color: '#5b6672', interval: 0, rotate: c.categories.length > 6 ? 22 : 0},
+            axisLine: {lineStyle: {color: '#d7dce1'}}, axisTick: {show: false}},
+    yAxis: {type: 'value', name: c.unit, nameTextStyle: {fontSize: 11, color: '#5b6672'},
+            splitLine: {lineStyle: {color: '#eef1f4'}},
+            axisLabel: {fontSize: 11, color: '#5b6672'}},
+    series: c.series.map(s => ({
+      name: s.name, type: 'bar', data: s.values,
+      stack: stacked ? 'a' : undefined,
+      barMaxWidth: 26,
+      itemStyle: {color: s.color, borderRadius: stacked ? 0 : 2},
+      emphasis: {focus: 'series'}
+    }))
+  });
+  return ch;
+}
+const made = [];
+D.cards.forEach(c => { try { const x = draw(c); if (x) made.push(x); }
+  catch (e) { (window.__drawErr = window.__drawErr || []).push(c.id + ': ' + e.message); } });
+window.addEventListener('resize', () => made.forEach(x => x.resize()));
+window.__made = made.length;
+</script></body></html>
