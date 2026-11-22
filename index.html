@@ -37,12 +37,13 @@
 <header>
   <p class="kicker">Distribution grids, read from the source PDFs</p>
   <h1>Fifteen charts on the grid at the end of the line</h1>
-  <p class="lede">Every chart here was extracted from the published PDF as vector geometry:
+  <p class="lede">Two reading methods, stated on every card. PDFs go through vector geometry:
   axes calibrated from the printed tick labels, series taken from the printed legend, values
-  sampled at each tick. Nothing is copied from a data annex and nothing is estimated by eye.
-  Charts that failed that test are listed at the bottom rather than shown.</p>
+  sampled at each tick. Interactive charts publish their own data table, which is read directly
+  and then checked against a number the publisher prints in the chart headline. Nothing is
+  estimated by eye. Charts that failed either test are described at the bottom rather than shown.</p>
   <div class="stats">
-    <div class="stat"><b>11</b><span>charts published</span></div>
+    <div class="stat"><b>15</b><span>charts published</span></div>
     <div class="stat"><b>3</b><span>publishers</span></div>
     <div class="stat"><b>15</b><span>reports tested</span></div>
     <div class="stat"><b>11</b><span>organisations checked</span></div>
@@ -61,7 +62,12 @@
   annual report and two ETC grids documents. 288 chart panels were detected.</p>
   <p>A panel is published only when its legend labels appear verbatim in the page's text layer, no
   two series share a name, and the values pass an internal test such as shares summing to 100 or a
-  category total matching the figure the report states in prose. Nine passed.</p>
+  category total matching the figure the report states in prose.</p>
+  <p>Ember needed a different route. Its charts are published as interactive embeds, so I enumerated
+  its site and found 74 grid charts, then pulled the data table each one ships. 31 returned a usable
+  table. Each was then checked against the number printed in its own headline: 10 passed, and of
+  those, three are about distribution networks rather than transmission and are shown here. The
+  other seven either concern transmission or carry no distribution reading.</p>
   <p>The failures cluster into three causes. EPRI, Ember, GGI and ISGAN ship their charts as
   raster images inside layout-heavy documents, so there is no vector geometry to calibrate. ETC's
   reports sit behind an email download form, and its public grids PDFs are slide exports whose
@@ -75,7 +81,7 @@
   report are linked on every card. Charts reproduce the publishers' data; the reading is ours.</p>
 </footer>
 <script src="vendor/echarts.min.js"></script>
-<script src="data.js?v=6"></script>
+<script src="data.js?v=7"></script>
 <script>
 const D = window.DISTGRID;
 const cards = document.getElementById('cards');
