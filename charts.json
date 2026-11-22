@@ -2,11 +2,68 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 11
+  "cards": 12
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "Ember",
+   "publisher_full": "Ember",
+   "pub_colour": "#203772",
+   "title": "Remaining connection capacity at distribution level in T\u00fcrkiye",
+   "sub": "Headroom left for new distributed generation on the distribution network, GW",
+   "unit": "GW",
+   "report": "Grid connection capacity challenges in T\u00fcrkiye and worldwide",
+   "year": 2026,
+   "page": "interactive chart",
+   "url": "https://ember-energy.org/chapter/grid-connection-capacity-challenges-in-turkiye-and-worldwide/",
+   "check": "Headroom falls from 3.75 GW in February 2024 to 0.52 GW in May 2025, an 86% reduction. The final value matches the figure Ember prints in the chart headline. March 2024 carries no published value and is left blank rather than interpolated.",
+   "mode": "stacked",
+   "categories": [
+    "Feb 24",
+    "Mar 24",
+    "Apr 24",
+    "May 24",
+    "Jun 24",
+    "Jul 24",
+    "Aug 24",
+    "Sep 24",
+    "Oct 24",
+    "Nov 24",
+    "Dec 24",
+    "Jan 25",
+    "Feb 25",
+    "Mar 25",
+    "Apr 25",
+    "May 25"
+   ],
+   "series": [
+    {
+     "name": "Remaining connection capacity",
+     "color": "#13CE74",
+     "values": [
+      3.75,
+      null,
+      2.33,
+      2.14,
+      1.85,
+      1.65,
+      1.42,
+      1.19,
+      1.03,
+      0.79,
+      0.64,
+      0.48,
+      0.58,
+      0.53,
+      0.56,
+      0.52
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -41,7 +98,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -96,7 +153,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -181,7 +238,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -234,7 +291,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -299,7 +356,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -376,7 +433,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -425,7 +482,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -490,7 +547,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -580,7 +637,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -674,7 +731,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
