@@ -2,11 +2,66 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 9
+  "cards": 10
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "Ember",
+   "publisher_full": "Ember",
+   "pub_colour": "#203772",
+   "title": "Share of households that can electrify their heating",
+   "sub": "Eight EU reporting countries, % of households, grid capacity as the constraint",
+   "unit": "% of households",
+   "report": "Crossed wires: grid capacity could block EU energy security",
+   "year": 2026,
+   "page": "interactive chart",
+   "url": "https://ember-energy.org/latest-insights/crossed-wires-grid-capacity-could-block-eu-energy-security/",
+   "check": "Both segments sum to 100% in all eight countries (99.5-99.8 measured, then normalised), which is the test that each legend colour was paired to the right series. Poland and Spain read as almost entirely blocked, matching the chart's own annotation.",
+   "mode": "stacked",
+   "categories": [
+    "Ireland",
+    "Belgium",
+    "Netherlands",
+    "Latvia",
+    "Lithuania",
+    "Czechia",
+    "Poland",
+    "Spain"
+   ],
+   "series": [
+    {
+     "name": "Insufficient grid capacity",
+     "color": "#cccccc",
+     "values": [
+      68.2,
+      74.2,
+      75.2,
+      79.2,
+      82.3,
+      87.3,
+      97.3,
+      98.3
+     ]
+    },
+    {
+     "name": "Share of households that can electrify",
+     "color": "#203772",
+     "values": [
+      31.8,
+      25.8,
+      24.8,
+      20.8,
+      17.7,
+      12.7,
+      2.7,
+      1.7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -91,7 +146,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -144,7 +199,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -209,7 +264,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -286,7 +341,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -335,7 +390,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -400,7 +455,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -490,7 +545,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -584,7 +639,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
