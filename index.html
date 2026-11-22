@@ -44,31 +44,38 @@
   <div class="stats">
     <div class="stat"><b>9</b><span>charts published</span></div>
     <div class="stat"><b>2</b><span>publishers</span></div>
-    <div class="stat"><b>6</b><span>reports tested</span></div>
+    <div class="stat"><b>15</b><span>reports tested</span></div>
+    <div class="stat"><b>11</b><span>organisations checked</span></div>
     <div class="stat"><b>0.09%</b><span>max error, graded run</span></div>
   </div>
 </header>
 <main id="cards"></main>
 <section class="notes">
   <h3>Why the list is short</h3>
-  <p>Six reports were downloaded and every figure in them was put through the reader: IEA
-  <i>Electricity Grids and Secure Energy Transitions</i>, IEA <i>World Energy Outlook 2026</i>,
-  Eurelectric <i>Grids for Speed</i>, ACER's 2024 infrastructure monitoring report, the EU DSO
-  Entity annual reporting and IRENA's <i>World Energy Transitions Outlook 2023</i>. 285 chart
-  panels were detected. A panel is published only when its legend labels appear verbatim in the
-  page's text layer, no two series share a name, and the values pass an internal test such as
-  shares summing to 100 or a category total matching the figure the report states in prose.</p>
-  <p>The rest failed for reasons worth naming: multi-panel composites share one legend across
-  panels and the reader pairs it wrongly; several reports draw legends as images, leaving no
-  text to verify against; and IRENA's flagship uses legends with repeated column headers that
-  cannot be matched one to one. Those are reader limits, not publisher errors.</p>
+  <p>Fifteen reports from eleven organisations were downloaded and every figure in them put
+  through the reader: IEA <i>Electricity Grids and Secure Energy Transitions</i> and
+  <i>World Energy Outlook 2026</i>, Eurelectric <i>Grids for Speed</i>, ACER's 2024 infrastructure
+  monitoring report, ACER-CEER guidance on distribution network planning, EU DSO Entity annual
+  reporting, IRENA <i>World Energy Transitions Outlook 2023</i>, three EPRI distribution
+  publications, Ember's grids deck, the Green Grids Initiative finance principles, ISGAN's 2023
+  annual report and two ETC grids documents. 288 chart panels were detected.</p>
+  <p>A panel is published only when its legend labels appear verbatim in the page's text layer, no
+  two series share a name, and the values pass an internal test such as shares summing to 100 or a
+  category total matching the figure the report states in prose. Nine passed.</p>
+  <p>The failures cluster into three causes. EPRI, Ember, GGI and ISGAN ship their charts as
+  raster images inside layout-heavy documents, so there is no vector geometry to calibrate. ETC's
+  reports sit behind an email download form, and its public grids PDFs are slide exports whose
+  axis words read as data. IEA, ACER and IRENA use multi-panel composites that share one legend
+  across panels, or legends with repeated column headers, which the reader pairs wrongly. Those
+  are reader limits, not publisher errors, and the first of them needs an image reader rather than
+  a better vector parser.</p>
 </section>
 <footer>
   <p>Values digitized from the published figures with a vector-geometry reader. Source, page and
   report are linked on every card. Charts reproduce the publishers' data; the reading is ours.</p>
 </footer>
 <script src="vendor/echarts.min.js"></script>
-<script src="data.js?v=1"></script>
+<script src="data.js?v=2"></script>
 <script>
 const D = window.DISTGRID;
 const cards = document.getElementById('cards');
