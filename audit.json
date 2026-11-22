@@ -1,0 +1,282 @@
+{
+ "28223369": {
+  "rows": 5,
+  "series": [
+   "Renewable capacity additions, 2014-2024"
+  ],
+  "verdict": "fails: 3.96x against a stated 3x, 6.6x against 5x"
+ },
+ "28225545": {
+  "rows": 5,
+  "series": [
+   ""
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "28191402": {
+  "rows": 10,
+  "series": [
+   "2024 installed wind and solar",
+   "Queued projects"
+  ],
+  "verdict": "published: queues total 695 GW against 'almost 700 GW'"
+ },
+ "27959013": {
+  "rows": 8,
+  "series": [
+   "Insufficient grid capacity",
+   "Share of households that can electrify"
+  ],
+  "verdict": "published: segments total 100 in 8/8 rows"
+ },
+ "24834237": {
+  "rows": 26,
+  "series": [
+   "ASEAN",
+   "Indonesia",
+   "Cambodia",
+   "Vietnam",
+   "Myanmar",
+   "Philippines"
+  ],
+  "verdict": "published: ASEAN 2040 value 2,307m equals '$2.3 billion'"
+ },
+ "24834789": {
+  "rows": 3,
+  "series": [
+   "ASEAN",
+   "Indonesia",
+   "Philippines",
+   "Vietnam",
+   "Thailand",
+   "Myanmar"
+  ],
+  "verdict": "published: ASEAN row 4.0 to 10.7 equals the headline bounds"
+ },
+ "24833981": {
+  "rows": 11,
+  "series": [
+   "Average VOLL (2015-2020)"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "24833510": {
+  "rows": 6,
+  "series": [
+   "Solar and wind",
+   "Battery"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "23483190": {
+  "rows": 16,
+  "series": [
+   "Capacity"
+  ],
+  "verdict": "published: final value 0.52 GW equals the printed headline"
+ },
+ "22857992": {
+  "rows": 1,
+  "series": [
+   "Not allocated",
+   "Not evaluated",
+   "Allocated"
+  ],
+  "verdict": "verified arithmetic (7.5 of 11.6 = 65%) but transmission-level connection"
+ },
+ "22681418": {
+  "rows": 4,
+  "series": [
+   "Solar",
+   "Wind"
+  ],
+  "verdict": "verified, transmission: 30 GW unlockable along APG routes"
+ },
+ "29034353": {
+  "rows": 4,
+  "series": [
+   "Behind-the-meter",
+   "Utility-scale"
+  ],
+  "verdict": "fails: 4.9x against a stated four times"
+ },
+ "29038743": {
+  "rows": 7,
+  "series": [
+   "Utility-scale battery",
+   "Gas"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "30647104": {
+  "rows": 9,
+  "series": [
+   "Data centre load - could be shifted",
+   "Data centre load - cannot be shifted",
+   "Remaining demand"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29492003": {
+  "rows": 2,
+  "series": [
+   "Gas",
+   "Interconnectors",
+   "Solar & Waste",
+   "Battery"
+  ],
+  "verdict": "fails: shares total 96.9 and 97.6"
+ },
+ "29822885": {
+  "rows": 2,
+  "series": [
+   "Thailand",
+   "Viet Nam",
+   "Indonesia's Sumatra",
+   "Peninsular Malaysia",
+   "Cambodia",
+   "Lao PDR"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29420720": {
+  "rows": 52,
+  "series": [
+   "Coal",
+   "Gas",
+   "Other fossil",
+   "Hydro",
+   "Bioenergy",
+   "Other renewables"
+  ],
+  "verdict": "verified, off-topic: fossil share of ASEAN generation"
+ },
+ "29769569": {
+  "rows": 8,
+  "series": [
+   "Solar",
+   "Hydro",
+   "Battery",
+   "Gas"
+  ],
+  "verdict": "verified, transmission: APG delay holds 7.2 GW solar"
+ },
+ "29768268": {
+  "rows": 5,
+  "series": [
+   "APG delayed to 2036"
+  ],
+  "verdict": "verified, transmission: APG delay adds gas generation"
+ },
+ "29492349": {
+  "rows": 4,
+  "series": [
+   "Solar",
+   "Hydro"
+  ],
+  "verdict": "verified, transmission: APG delay cost $1.1bn"
+ },
+ "29085857": {
+  "rows": 8,
+  "series": [
+   "Year on year change (GW)"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29429368": {
+  "rows": 4,
+  "series": [
+   "Middle East",
+   "Southeast Asia",
+   "Other"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29956366": {
+  "rows": 96,
+  "series": [
+   "Demand",
+   "Net import",
+   "Nuclear",
+   "Fossil",
+   "Other renewables",
+   "Solar"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29941869": {
+  "rows": 72,
+  "series": [
+   "max_hydro_twh",
+   "min_hydro_twh",
+   "Five-year average (2021-2025)",
+   "2026"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "29947468": {
+  "rows": 96,
+  "series": [
+   "15-Jun",
+   "16-Jun",
+   "17-Jun",
+   "18-Jun",
+   "19-Jun",
+   "20-Jun"
+  ],
+  "verdict": "verified, off-topic: heatwave price effect"
+ },
+ "23278114": {
+  "rows": 9,
+  "series": [
+   "Amount"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "23232600": {
+  "rows": 4,
+  "series": [
+   "Capacity growth by 2030"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "25080020": {
+  "rows": 12,
+  "series": [
+   "Distribution Modernization",
+   "Rapid RE Expansion",
+   "Cross border Integration"
+  ],
+  "verdict": "verified but not shown: blocks unlabelled, cannot caption the periods"
+ },
+ "27294053": {
+  "rows": 10,
+  "series": [
+   "Bulgaria",
+   "Greece",
+   "Georgia",
+   "Azerbaijan (via Georgia)",
+   "Other (via Georgia)"
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "27294052": {
+  "rows": 20,
+  "series": [
+   "Bulgaria",
+   "Greece",
+   "Iraq",
+   "Syria",
+   "Other",
+   ""
+  ],
+  "verdict": "no numeric check available; headline states a comparison, not a value"
+ },
+ "24954641": {
+  "rows": 8,
+  "series": [
+   ""
+  ],
+  "verdict": "fails: parts total 151.3 against 167.0"
+ }
+}
