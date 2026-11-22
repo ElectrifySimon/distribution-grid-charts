@@ -2,11 +2,46 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 10
+  "cards": 11
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "Ember",
+   "publisher_full": "Ember",
+   "pub_colour": "#203772",
+   "title": "Where Europe's planned renewables can and cannot connect",
+   "sub": "Expected renewable additions by 2030 against available grid capacity, GW",
+   "unit": "GW",
+   "report": "Crossed wires: grid capacity could block EU energy security",
+   "year": 2026,
+   "page": "interactive chart",
+   "url": "https://ember-energy.org/latest-insights/crossed-wires-grid-capacity-could-block-eu-energy-security/",
+   "check": "The four components sum to 229 GW against the 230 GW planned, and the two shortfall bars total 114 GW against the report's stated 'at least 120 GW at risk'. Both account for the whole figure, so no bar was missed or double counted.",
+   "mode": "stacked",
+   "categories": [
+    "Planned renewables",
+    "Available at transmission",
+    "Available at distribution",
+    "Shortfall at transmission",
+    "Shortfall at distribution"
+   ],
+   "series": [
+    {
+     "name": "Capacity (GW)",
+     "color": "#203772",
+     "values": [
+      230.4,
+      51.4,
+      64.1,
+      99.4,
+      15.4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -61,7 +96,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -146,7 +181,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -199,7 +234,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -264,7 +299,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -341,7 +376,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -390,7 +425,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -455,7 +490,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -545,7 +580,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -639,7 +674,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
