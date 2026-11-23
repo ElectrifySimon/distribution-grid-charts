@@ -18,7 +18,7 @@
    "page": "average interruptions per customer, traced from the right-hand axis",
    "url": "https://www.aer.gov.au/system/files/2026-07/Network%20performance%20report%202026_0.pdf",
    "check": "The chart prints its own endpoint: 1.01 interruptions per customer in 2025. The trace lands at 1.05 at the final column and 1.01 where the label is, so the 2025 point is taken from the printed label. The starting point near 1.8 in 2006 carries no printed label and comes from the right-hand axis, which runs 0.80 to 1.80 in steps of 0.10.",
-   "mode": "grouped",
+   "mode": "line",
    "categories": [
     "2006",
     "2007",
