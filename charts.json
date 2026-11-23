@@ -2,11 +2,136 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 16
+  "cards": 17
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "LBNL",
+   "publisher_full": "Lawrence Berkeley National Laboratory",
+   "pub_colour": "#8f2d56",
+   "title": "What the hardware on a distribution network costs now",
+   "sub": "Cumulative price change for power system equipment against June 2004, %",
+   "unit": "% change since 2004",
+   "report": "Electric utility distribution costs",
+   "year": 2026,
+   "page": "producer price index chart",
+   "url": "https://eta-publications.lbl.gov/sites/default/files/2026-04/utility_distribution_costs_final.pdf",
+   "check": "Each traced line ends on the number the chart prints at its own end: wire and cable 411, transformers 263 against 265 printed, switchgear 139 against 140. Wood poles traced to 109 against a printed 123, so that line was left off rather than published wrong.",
+   "mode": "stacked",
+   "categories": [
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "series": [
+    {
+     "name": "Wire and cable",
+     "color": "#f6891f",
+     "values": [
+      8.0,
+      23.0,
+      86.0,
+      89.0,
+      83.0,
+      56.0,
+      85.0,
+      110.0,
+      109.0,
+      100.0,
+      100.0,
+      93.0,
+      71.0,
+      74.0,
+      105.0,
+      105.0,
+      102.0,
+      171.0,
+      247.0,
+      341.0,
+      370.0,
+      411.0
+     ]
+    },
+    {
+     "name": "Transformers",
+     "color": "#005875",
+     "values": [
+      2.0,
+      20.0,
+      53.0,
+      80.0,
+      73.0,
+      91.0,
+      100.0,
+      93.0,
+      94.0,
+      77.0,
+      79.0,
+      89.0,
+      94.0,
+      99.0,
+      169.0,
+      231.0,
+      241.0,
+      255.0,
+      271.0,
+      261.0,
+      268.0,
+      263.0
+     ]
+    },
+    {
+     "name": "Switchgear",
+     "color": "#07b69a",
+     "values": [
+      4.0,
+      12.0,
+      20.0,
+      22.0,
+      28.0,
+      29.0,
+      29.0,
+      31.0,
+      31.0,
+      30.0,
+      30.0,
+      31.0,
+      35.0,
+      38.0,
+      43.0,
+      54.0,
+      87.0,
+      100.0,
+      112.0,
+      138.0,
+      157.0,
+      139.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "ANEEL",
    "publisher_full": "Brazilian Electricity Regulatory Agency (ANEEL)",
    "pub_colour": "#1c6b3a",
@@ -51,7 +176,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -112,7 +237,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -188,7 +313,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -425,7 +550,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -482,7 +607,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -517,7 +642,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -572,7 +697,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -657,7 +782,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -710,7 +835,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -775,7 +900,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -852,7 +977,7 @@
    ]
   },
   {
-   "id": "c11",
+   "id": "c12",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -901,7 +1026,7 @@
    ]
   },
   {
-   "id": "c12",
+   "id": "c13",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -966,7 +1091,7 @@
    ]
   },
   {
-   "id": "c13",
+   "id": "c14",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1056,7 +1181,7 @@
    ]
   },
   {
-   "id": "c14",
+   "id": "c15",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1150,7 +1275,7 @@
    ]
   },
   {
-   "id": "c15",
+   "id": "c16",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
