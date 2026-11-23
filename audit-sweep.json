@@ -1,0 +1,42 @@
+{
+  "sweep": "2026-11-23",
+  "searches": 50,
+  "countries_searched": 20,
+  "organisations_searched": 15,
+  "rule": "A chart is published only when a number it prints (or a total the report states) matches the read. Everything else keeps its verdict and stays off the page.",
+  "published": [
+    {"org": "ANEEL", "country": "Brazil", "file": "Relatorio de Perdas de Energia Eletrica na Distribuicao 2026/2025", "chart": "figure 9, non-technical losses by distributor", "check": "Light plus Amazonas read 31.1 against 31.2 stated; top ten 75.5 against 76.2 stated."},
+    {"org": "LBNL", "country": "United States", "file": "Electric utility distribution costs", "chart": "producer price index for power system equipment", "check": "Traced endpoints land on the printed labels: 411.3 against 411, 263 against 265, 138.7 against 140."},
+    {"org": "LBNL", "country": "United States", "file": "Electric utility distribution costs", "chart": "investor-owned utility rate change requests", "check": "Traced final value 18.2 against the printed $18 billion. Read but not published: the series describes whole rate cases, not distribution alone."}
+  ],
+  "checked_no_chart": [
+    {"org": "ACER", "file": "Electricity network tariff practices 2025", "verdict": "Eight vector panels found, none carried a numeric value. Distributor tariff charts are vector shapes with no series geometry."},
+    {"org": "ACER / CEER", "file": "Distribution network planning guidance 2025", "verdict": "No panels. Charts are flat images inside a text-led guidance document."},
+    {"org": "CEER", "file": "Annual report 2025", "verdict": "No panels. Photo-led report."},
+    {"org": "EU DSO Entity", "file": "Annual report, period 2025", "verdict": "No panels. Figures are organisational diagrams, not data charts."},
+    {"org": "EPRI", "file": "Hosting capacity product", "verdict": "No panels. Charts raster at brochure size."},
+    {"org": "CIGRE USNC", "file": "Hosting capacity tutorial", "verdict": "No panels. Slide deck, charts as images."},
+    {"org": "PLN", "file": "Statistics 2025", "verdict": "Fifteen pages with vector panels, every one returning zero series. Axis frames drawn, series plotted as grouped shapes the engine cannot pair to labels."},
+    {"org": "CEA India", "file": "General Review 2025", "verdict": "Seven chart images with clean gridlines, all generation and capacity. The distribution figures (AT&C losses, transformation capacity) sit in tables, not charts."},
+    {"org": "Ministry of Power India", "file": "Annual report 2025-26", "verdict": "Scanned pages, no vector chart geometry. AT&C loss figures appear as prose in the text layer."}
+  ],
+  "searched_no_file": [
+    "Mexico, CFE distribution investment",
+    "Vietnam, EVN distribution losses",
+    "Nigeria, DisCo distribution investment",
+    "Kenya, Kenya Power network investment",
+    "South Africa, Eskom distribution plan",
+    "Pakistan, NEPRA distribution losses",
+    "Bangladesh, BERC utility performance",
+    "Egypt, EETC distribution investment",
+    "Saudi Arabia, SEC distribution network",
+    "China, State Grid distribution investment",
+    "Turkey, EPDK distribution investment",
+    "Australia, AEMO distribution tariffs",
+    "Canada, CER grid outlook",
+    "World Bank, IDB, ADB, AfDB, UN ESCAP distribution reports",
+    "Agora, Bruegel, RMI, RAP, BNEF, DNV, McKinsey, Florence School",
+    "ISGAN, ETC, Green Grids Initiative, Open Energy Transition"
+  ],
+  "why": "Most non-European publishers ship charts as flat images with no printed values. The two readers built for this sweep handle the two shapes that do carry a check: bars against gridlines with a stated total, and lines with printed end labels."
+}
