@@ -2,11 +2,64 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 23
+  "cards": 24
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "AER",
+   "publisher_full": "Australian Energy Regulator",
+   "pub_colour": "#1f6f5c",
+   "title": "Two Queensland networks spent far more on their poles and wires than the regulator allowed",
+   "sub": "Capex over or under allowance by network, 2025, %, against a DNSP average of 26%",
+   "unit": "% of allowance",
+   "report": "Network performance report 2026",
+   "year": 2026,
+   "page": "capex over and under allowance, values printed on the chart",
+   "url": "https://www.aer.gov.au/system/files/2026-07/Network%20performance%20report%202026_0.pdf",
+   "check": "Every bar carries its printed value, and two independent reads of the label range agree on all fourteen numbers. The dashed DNSP average is labelled 26%. The report text gives the aggregate: networks invested $8.5b of capex in 2025, 14% more than the year before and 3% above the aggregate allowance, so the large per-network overspends are offset by underspends such as Ausgrid at minus 30%.",
+   "mode": "grouped",
+   "categories": [
+    "United Energy",
+    "CitiPower",
+    "Powercor",
+    "AusNet Services",
+    "Jemena",
+    "SA Power Networks",
+    "Energex",
+    "Ergon Energy",
+    "Ausgrid",
+    "TasNetworks",
+    "Endeavour Energy",
+    "Evoenergy",
+    "Essential Energy",
+    "Power and Water"
+   ],
+   "series": [
+    {
+     "name": "Capex over or under allowance",
+     "color": "#8f9ba6",
+     "values": [
+      4,
+      24,
+      24,
+      68,
+      80,
+      7,
+      42,
+      130,
+      -30,
+      -12,
+      -10,
+      -6,
+      9,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "AER",
    "publisher_full": "Australian Energy Regulator",
    "pub_colour": "#1f6f5c",
@@ -55,7 +108,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "AER",
    "publisher_full": "Australian Energy Regulator",
    "pub_colour": "#1f6f5c",
@@ -120,7 +173,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "AER",
    "publisher_full": "Australian Energy Regulator",
    "pub_colour": "#1f6f5c",
@@ -173,7 +226,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -246,7 +299,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -319,7 +372,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "Ofgem",
    "publisher_full": "Office of Gas and Electricity Markets (Great Britain)",
    "pub_colour": "#0f4c81",
@@ -422,7 +475,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -547,7 +600,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "ANEEL",
    "publisher_full": "Brazilian Electricity Regulatory Agency (ANEEL)",
    "pub_colour": "#1c6b3a",
@@ -592,7 +645,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -653,7 +706,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -729,7 +782,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -966,7 +1019,7 @@
    ]
   },
   {
-   "id": "c11",
+   "id": "c12",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -1023,7 +1076,7 @@
    ]
   },
   {
-   "id": "c12",
+   "id": "c13",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -1058,7 +1111,7 @@
    ]
   },
   {
-   "id": "c13",
+   "id": "c14",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -1113,7 +1166,7 @@
    ]
   },
   {
-   "id": "c14",
+   "id": "c15",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -1198,7 +1251,7 @@
    ]
   },
   {
-   "id": "c15",
+   "id": "c16",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -1251,7 +1304,7 @@
    ]
   },
   {
-   "id": "c16",
+   "id": "c17",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1316,7 +1369,7 @@
    ]
   },
   {
-   "id": "c17",
+   "id": "c18",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1393,7 +1446,7 @@
    ]
   },
   {
-   "id": "c18",
+   "id": "c19",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1442,7 +1495,7 @@
    ]
   },
   {
-   "id": "c19",
+   "id": "c20",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1507,7 +1560,7 @@
    ]
   },
   {
-   "id": "c20",
+   "id": "c21",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1597,7 +1650,7 @@
    ]
   },
   {
-   "id": "c21",
+   "id": "c22",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1691,7 +1744,7 @@
    ]
   },
   {
-   "id": "c22",
+   "id": "c23",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
