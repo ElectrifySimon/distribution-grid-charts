@@ -282,7 +282,7 @@
  "29231015": {
   "rows": 0,
   "series": [],
-  "verdict": "no data table in the embed"
+  "verdict": "unread: the table parser errored on a mixed-type row, so this chart was never read"
  },
  "28668367": {
   "rows": 0,
