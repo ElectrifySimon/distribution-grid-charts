@@ -2,11 +2,64 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 20
+  "cards": 21
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "AER",
+   "publisher_full": "Australian Energy Regulator",
+   "pub_colour": "#1f6f5c",
+   "title": "Which Australian distribution networks pushed revenue furthest above the average",
+   "sub": "Real movement in distribution revenue by network, 2025, %, against a DNSP average of 6%",
+   "unit": "%",
+   "report": "Network performance report 2026",
+   "year": 2026,
+   "page": "real movement in distribution revenue, values printed on the chart",
+   "url": "https://www.aer.gov.au/system/files/2026-07/Network%20performance%20report%202026_0.pdf",
+   "check": "Every bar carries its value on the chart, so the check is a second independent read of the labels: the two reads agree on thirteen of fourteen. The fourteenth is Essential Energy at minus 1, the only network with a fall, and the measured bar sits below the zero line as it should. Jemena at 15% is the highest.",
+   "mode": "grouped",
+   "categories": [
+    "United Energy",
+    "AusNet Services",
+    "CitiPower",
+    "Powercor",
+    "Jemena",
+    "Energex",
+    "SA Power Networks",
+    "Ergon Energy",
+    "Essential Energy",
+    "Power and Water",
+    "Ausgrid",
+    "Endeavour Energy",
+    "TasNetworks",
+    "Evoenergy"
+   ],
+   "series": [
+    {
+     "name": "Real movement in distribution revenue",
+     "color": "#8f9ba6",
+     "values": [
+      2,
+      4,
+      4,
+      7,
+      15,
+      8,
+      8,
+      9,
+      -1,
+      3,
+      5,
+      7,
+      10,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -79,7 +132,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -152,7 +205,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "Ofgem",
    "publisher_full": "Office of Gas and Electricity Markets (Great Britain)",
    "pub_colour": "#0f4c81",
@@ -255,7 +308,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -380,7 +433,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "ANEEL",
    "publisher_full": "Brazilian Electricity Regulatory Agency (ANEEL)",
    "pub_colour": "#1c6b3a",
@@ -425,7 +478,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -486,7 +539,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -562,7 +615,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -799,7 +852,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -856,7 +909,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -891,7 +944,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -946,7 +999,7 @@
    ]
   },
   {
-   "id": "c11",
+   "id": "c12",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -1031,7 +1084,7 @@
    ]
   },
   {
-   "id": "c12",
+   "id": "c13",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -1084,7 +1137,7 @@
    ]
   },
   {
-   "id": "c13",
+   "id": "c14",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1149,7 +1202,7 @@
    ]
   },
   {
-   "id": "c14",
+   "id": "c15",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1226,7 +1279,7 @@
    ]
   },
   {
-   "id": "c15",
+   "id": "c16",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1275,7 +1328,7 @@
    ]
   },
   {
-   "id": "c16",
+   "id": "c17",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1340,7 +1393,7 @@
    ]
   },
   {
-   "id": "c17",
+   "id": "c18",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1430,7 +1483,7 @@
    ]
   },
   {
-   "id": "c18",
+   "id": "c19",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1524,7 +1577,7 @@
    ]
   },
   {
-   "id": "c19",
+   "id": "c20",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
