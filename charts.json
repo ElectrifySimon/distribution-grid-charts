@@ -2,11 +2,84 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 18
+  "cards": 19
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "LBNL",
+   "publisher_full": "Lawrence Berkeley National Laboratory",
+   "pub_colour": "#8f2d56",
+   "title": "What distribution spending does to the bill in each US grid region",
+   "sub": "All-sector average rate impact of increased distribution spending, cents per kWh, three years",
+   "unit": "cents per kWh",
+   "report": "Electric utility distribution costs",
+   "year": 2026,
+   "page": "approximate rate and bill impacts, measured from the axis",
+   "url": "https://eta-publications.lbl.gov/sites/default/files/2026-04/utility_distribution_costs_final.pdf",
+   "check": "Four statements in the report text check the read. The 2024 range is 1.30 to 7.19 against a stated 1.3 to 7.2. CAISO rises 3.00 cents against a stated ~3. NYISO and ISO-NE rise 1.02 and 0.87 against a stated ~1. ERCOT and the non-ISO West fall, and Southeast, MISO and PJM rise 0.35, 0.29 and 0.25 against a stated 0.3 to 0.4.",
+   "mode": "grouped",
+   "categories": [
+    "CAISO",
+    "NYISO",
+    "ISO-NE",
+    "Southeast",
+    "MISO",
+    "PJM",
+    "SPP",
+    "West",
+    "ERCOT"
+   ],
+   "series": [
+    {
+     "name": "2014",
+     "color": "#d9e2f1",
+     "values": [
+      4.19,
+      5.65,
+      3.77,
+      2.13,
+      2.04,
+      2.5,
+      1.87,
+      2.19,
+      1.6
+     ]
+    },
+    {
+     "name": "2019",
+     "color": "#8ca7d5",
+     "values": [
+      5.6,
+      6.14,
+      4.33,
+      2.28,
+      2.11,
+      2.79,
+      1.89,
+      2.14,
+      1.47
+     ]
+    },
+    {
+     "name": "2024",
+     "color": "#152c58",
+     "values": [
+      7.19,
+      6.67,
+      4.64,
+      2.48,
+      2.33,
+      2.75,
+      1.82,
+      2.01,
+      1.3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "Ofgem",
    "publisher_full": "Office of Gas and Electricity Markets (Great Britain)",
    "pub_colour": "#0f4c81",
@@ -18,7 +91,7 @@
    "page": "figure 3, measured from the axis",
    "url": "https://www.ofgem.gov.uk/sites/default/files/2026-01/ED-annual-report-2024-2025.pdf",
    "check": "Measured against the printed axis, which runs 0 to 100 in steps of 10. No values are printed on this chart, so the check is the axis itself: both series fall steadily from the low 80s in 2001-02 to the high 30s in 2024-25, and the two series move together, which is what a colour mix-up would break.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "2001/02",
     "2002/03",
@@ -109,7 +182,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -121,7 +194,7 @@
    "page": "producer price index chart",
    "url": "https://eta-publications.lbl.gov/sites/default/files/2026-04/utility_distribution_costs_final.pdf",
    "check": "Each traced line ends on the number the chart prints at its own end: wire and cable 411, transformers 263 against 265 printed, switchgear 139 against 140. Wood poles traced to 109 against a printed 123, so that line was left off rather than published wrong.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "2004",
     "2005",
@@ -234,7 +307,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "ANEEL",
    "publisher_full": "Brazilian Electricity Regulatory Agency (ANEEL)",
    "pub_colour": "#1c6b3a",
@@ -246,7 +319,7 @@
    "page": "figure 9, raster chart",
    "url": "https://static.poder360.com.br/uploads/2026/07/Relatorio_Perdas_Energia.pdf",
    "check": "Light and Amazonas Energia together hold 31.1% of the country's non-technical losses against the 31.2% the report states in its text, and the ten bars total 75.5% against the stated 76.2%. The chart is a flat image, so the bars were measured against its 2-point gridlines rather than read from vector geometry.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Light",
     "Amazonas Energia",
@@ -279,7 +352,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -291,7 +364,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/latest-insights/crossed-wires-grid-capacity-could-block-eu-energy-security/",
    "check": "The ten queues total 695 GW, which is Ember's 'almost 700 GW'. Finland holds 332 GW of queued projects against 9.6 GW installed, the widest ratio in the set.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Finland",
     "Italy",
@@ -340,7 +413,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -352,7 +425,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/chapter/invest-4-10-7-billion-in-smart-grids-to-fully-unlock-clean-power-potential/",
    "check": "The ASEAN row runs from 4.0 to 10.7, the two bounds Ember prints in its headline. The five listed states total 3.7 against the bloc figure of 4.0, so the remainder sits with members not shown here.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Distribution modernisation",
     "Rapid RE expansion",
@@ -416,7 +489,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -428,7 +501,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/latest-updates/asean-could-avoid-2-3-billion-in-economic-losses-by-2040-with-smart-grids",
    "check": "The ASEAN line reaches 2,307 million in 2040, the $2.3 billion in Ember's headline. The country lines cover the five largest contributors only, so they do not add up to the bloc total.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "2015",
     "2016",
@@ -653,7 +726,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -665,7 +738,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/chapter/grid-connection-capacity-challenges-in-turkiye-and-worldwide/",
    "check": "Headroom falls from 3.75 GW in February 2024 to 0.52 GW in May 2025, an 86% reduction. The final value matches the figure Ember prints in the chart headline. March 2024 carries no published value and is left blank rather than interpolated.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Feb 24",
     "Mar 24",
@@ -710,7 +783,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -722,7 +795,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/latest-insights/crossed-wires-grid-capacity-could-block-eu-energy-security/",
    "check": "The four components sum to 229 GW against the 230 GW planned, and the two shortfall bars total 114 GW against the report's stated 'at least 120 GW at risk'. Both account for the whole figure, so no bar was missed or double counted.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Planned renewables",
     "Available at transmission",
@@ -745,7 +818,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -757,7 +830,7 @@
    "page": "interactive chart",
    "url": "https://ember-energy.org/latest-insights/crossed-wires-grid-capacity-could-block-eu-energy-security/",
    "check": "Both segments sum to 100% in all eight countries (99.5-99.8 measured, then normalised), which is the test that each legend colour was paired to the right series. Poland and Spain read as almost entirely blocked, matching the chart's own annotation.",
-   "mode": "stacked",
+   "mode": "grouped",
    "categories": [
     "Ireland",
     "Belgium",
@@ -800,7 +873,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -885,7 +958,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -938,7 +1011,7 @@
    ]
   },
   {
-   "id": "c11",
+   "id": "c12",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1003,7 +1076,7 @@
    ]
   },
   {
-   "id": "c12",
+   "id": "c13",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1080,7 +1153,7 @@
    ]
   },
   {
-   "id": "c13",
+   "id": "c14",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1129,7 +1202,7 @@
    ]
   },
   {
-   "id": "c14",
+   "id": "c15",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1194,7 +1267,7 @@
    ]
   },
   {
-   "id": "c15",
+   "id": "c16",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1284,7 +1357,7 @@
    ]
   },
   {
-   "id": "c16",
+   "id": "c17",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1378,7 +1451,7 @@
    ]
   },
   {
-   "id": "c17",
+   "id": "c18",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
