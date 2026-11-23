@@ -282,7 +282,7 @@
  "29231015": {
   "rows": 0,
   "series": [],
-  "verdict": "no data table: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+  "verdict": "no data table in the embed"
  },
  "28668367": {
   "rows": 0,
