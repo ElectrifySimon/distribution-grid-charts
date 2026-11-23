@@ -2,11 +2,114 @@
  "meta": {
   "title": "Distribution grids in charts",
   "built": "2026-11-22",
-  "cards": 17
+  "cards": 18
  },
  "cards": [
   {
    "id": "c0",
+   "publisher": "Ofgem",
+   "publisher_full": "Office of Gas and Electricity Markets (Great Britain)",
+   "pub_colour": "#0f4c81",
+   "title": "Two decades of fewer interruptions on Britain's distribution networks",
+   "sub": "Customer interruptions and customer minutes lost, 2001-02 to 2024-25, as scored in the report",
+   "unit": "score (axis 0 to 100)",
+   "report": "RIIO-2 electricity distribution: annual report 2024 to 2025",
+   "year": 2026,
+   "page": "figure 3, measured from the axis",
+   "url": "https://www.ofgem.gov.uk/sites/default/files/2026-01/ED-annual-report-2024-2025.pdf",
+   "check": "Measured against the printed axis, which runs 0 to 100 in steps of 10. No values are printed on this chart, so the check is the axis itself: both series fall steadily from the low 80s in 2001-02 to the high 30s in 2024-25, and the two series move together, which is what a colour mix-up would break.",
+   "mode": "stacked",
+   "categories": [
+    "2001/02",
+    "2002/03",
+    "2003/04",
+    "2004/05",
+    "2005/06",
+    "2006/07",
+    "2007/08",
+    "2008/09",
+    "2009/10",
+    "2010/11",
+    "2011/12",
+    "2012/13",
+    "2013/14",
+    "2014/15",
+    "2015/16",
+    "2016/17",
+    "2017/18",
+    "2018/19",
+    "2019/20",
+    "2020/21",
+    "2021/22",
+    "2022/23",
+    "2023/24",
+    "2024/25"
+   ],
+   "series": [
+    {
+     "name": "Customer interruptions",
+     "color": "#155f82",
+     "values": [
+      86.2,
+      78.3,
+      80.3,
+      71.9,
+      71.2,
+      74.8,
+      69.9,
+      66.2,
+      64.5,
+      64.0,
+      56.5,
+      55.0,
+      54.9,
+      50.4,
+      46.1,
+      44.6,
+      44.8,
+      43.4,
+      40.9,
+      41.0,
+      38.4,
+      40.3,
+      42.0,
+      39.3
+     ]
+    },
+    {
+     "name": "Customer minutes lost",
+     "color": "#e97031",
+     "values": [
+      81.2,
+      80.8,
+      76.2,
+      68.1,
+      65.1,
+      72.1,
+      67.9,
+      65.6,
+      62.6,
+      60.4,
+      48.0,
+      48.2,
+      46.6,
+      38.7,
+      33.9,
+      34.2,
+      35.0,
+      34.8,
+      32.6,
+      31.6,
+      31.4,
+      33.7,
+      36.2,
+      34.6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1",
    "publisher": "LBNL",
    "publisher_full": "Lawrence Berkeley National Laboratory",
    "pub_colour": "#8f2d56",
@@ -131,7 +234,7 @@
    ]
   },
   {
-   "id": "c1",
+   "id": "c2",
    "publisher": "ANEEL",
    "publisher_full": "Brazilian Electricity Regulatory Agency (ANEEL)",
    "pub_colour": "#1c6b3a",
@@ -176,7 +279,7 @@
    ]
   },
   {
-   "id": "c2",
+   "id": "c3",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -237,7 +340,7 @@
    ]
   },
   {
-   "id": "c3",
+   "id": "c4",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -313,7 +416,7 @@
    ]
   },
   {
-   "id": "c4",
+   "id": "c5",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -550,7 +653,7 @@
    ]
   },
   {
-   "id": "c5",
+   "id": "c6",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -607,7 +710,7 @@
    ]
   },
   {
-   "id": "c6",
+   "id": "c7",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -642,7 +745,7 @@
    ]
   },
   {
-   "id": "c7",
+   "id": "c8",
    "publisher": "Ember",
    "publisher_full": "Ember",
    "pub_colour": "#203772",
@@ -697,7 +800,7 @@
    ]
   },
   {
-   "id": "c8",
+   "id": "c9",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -782,7 +885,7 @@
    ]
   },
   {
-   "id": "c9",
+   "id": "c10",
    "publisher": "Eurelectric",
    "publisher_full": "Eurelectric / EY / Imperial College London",
    "pub_colour": "#8a4b12",
@@ -835,7 +938,7 @@
    ]
   },
   {
-   "id": "c10",
+   "id": "c11",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -900,7 +1003,7 @@
    ]
   },
   {
-   "id": "c11",
+   "id": "c12",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -977,7 +1080,7 @@
    ]
   },
   {
-   "id": "c12",
+   "id": "c13",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1026,7 +1129,7 @@
    ]
   },
   {
-   "id": "c13",
+   "id": "c14",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1091,7 +1194,7 @@
    ]
   },
   {
-   "id": "c14",
+   "id": "c15",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1181,7 +1284,7 @@
    ]
   },
   {
-   "id": "c15",
+   "id": "c16",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
@@ -1275,7 +1378,7 @@
    ]
   },
   {
-   "id": "c16",
+   "id": "c17",
    "publisher": "IEA",
    "publisher_full": "International Energy Agency",
    "pub_colour": "#1b5e8c",
