@@ -278,5 +278,220 @@
    ""
   ],
   "verdict": "fails: parts total 151.3 against 167.0"
+ },
+ "29231015": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table: TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+ },
+ "28668367": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28647752": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28226201": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "28663812": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29019552": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28647305": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28666256": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28227405": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "27668100": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28228143": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "28023678": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "24834569": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "24941810": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "25389101": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "25036738": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "25415508": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "22516667": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "19433168": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "19433689": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "19432083": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "21110011": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "21110091": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "18525529": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29142777": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "29291847": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29380132": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29018246": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "30671546": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "30646912": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29892302": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29996839": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29879346": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "29957632": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "29570855": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "27297263": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "23465142": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "23551233": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "25311337": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "26204756": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "30797743": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
+ },
+ "27286853": {
+  "rows": 0,
+  "series": [],
+  "verdict": "no data table in the embed"
+ },
+ "24841246": {
+  "rows": 0,
+  "series": [],
+  "verdict": "not a numeric chart: the table holds text, not values"
  }
 }
